@@ -19,8 +19,8 @@ const Card: React.FC<BeerItemProps> = (props) => {
             </div>
             <div className="card-text-container">
             <h3>{props.beer.name}</h3>
-            <p>{props.beer.rating.average.toFixed(2)}</p>
-            <p>{props.beer.price}</p>
+            <p className="rating">{props.beer.rating.average.toFixed(2)}</p>
+            <p className="price">{props.beer.price}</p>
             </div>
             <button className="card-btn">see more...
             </button>

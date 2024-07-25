@@ -11,15 +11,34 @@
 .card{
     border: 1px solid #222;
     border-radius: 16px;
+    padding: 0 0 2em 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .card-img-container{
     padding: 1em;
     height: 250px;
+    text-align: center;
 }
 
 .card-img-container img{
     height: 100%;
-    object-position:bottom;
     object-fit: contain;
+}
+
+.card-text-container{
+    margin: 1em 0;
+    padding: 0 1em;
+}
+
+.card-btn{
+    text-align: center;
+    cursor: pointer;
+    width: 60%;
+    align-self: center;
+}
+
+.rating::after{
+    content: "★";
 }

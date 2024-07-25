@@ -7,9 +7,8 @@ const BeerRandom = () => {
 
     const { beerData } = useBeer();
     let rndBeerId = Math.floor(Math.random() * beerData?.length!)
-    console.log(rndBeerId)
-
     const rndBeer = beerData![rndBeerId]
+    
     return (
     <>
     <h2>BeerDetail</h2>
