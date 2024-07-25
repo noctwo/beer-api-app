@@ -10,6 +10,7 @@ const Card: React.FC<BeerItemProps> = (props) => {
 
     return ( 
         <Link to={`/beerdetail/${props.beer.id}`} >
+        <div className="list-wrapper">
         <div className="card">
             <div className="card-img-container">
                 <img src={props.beer.image}
@@ -23,6 +24,7 @@ const Card: React.FC<BeerItemProps> = (props) => {
             </div>
             <button className="card-btn">see more
             </button>
+        </div>
         </div>
         </Link>
     );

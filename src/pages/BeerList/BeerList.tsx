@@ -9,10 +9,11 @@ const BeerList = () => {
 
     return ( 
         <>
-        <h2>BeerList</h2>
+        <div className="list-wrapper">
         {beerData?.map((item, index) => (
             <Card beer={item} key={index}/>
         ))}
+        </div>
         <Footer />
         </>
     );

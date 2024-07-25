@@ -5,6 +5,7 @@ import BeerList from './pages/BeerList/BeerList'
 import Home from './pages/Home/Home'
 import BeerRandom from './pages/BeerRandom/BeerRandom'
 import { BeerProvider } from './context/fetch'
+import Header from './components/Header/Header'
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
 
   return (
     <BeerProvider>
+      <Header/>
     <BrowserRouter>
     <Routes>
       <Route path="/" element={<Home />} />
