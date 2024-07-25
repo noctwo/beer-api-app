@@ -22,7 +22,7 @@ const Card: React.FC<BeerItemProps> = (props) => {
             <p>{props.beer.rating.average.toFixed(2)}</p>
             <p>{props.beer.price}</p>
             </div>
-            <button className="card-btn">see more
+            <button className="card-btn">see more...
             </button>
         </div>
         </div>
