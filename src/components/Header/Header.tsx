@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom";
 import "./Header.css"
+
 const Header = () => {
     return ( 
         <header>
-            <img src="/img/logo.svg" />
+            <Link to="/"><img src="/img/logo.svg" /></Link>
                     <h1>Beer API App</h1>
         </header>
      );

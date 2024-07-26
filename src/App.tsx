@@ -13,8 +13,8 @@ function App() {
 
   return (
     <BeerProvider>
-      <Header/>
     <BrowserRouter>
+      <Header/>
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/beerlist" element={<BeerList/>}/>

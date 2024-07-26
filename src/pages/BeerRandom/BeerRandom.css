@@ -1,0 +1,45 @@
+.detail-card{
+    width: 80%;
+    max-width: 700px;
+    margin: 0 auto;
+    border: 1px solid #222;
+    margin-bottom: 5em;
+    border-radius: 16px;
+    padding: 1em;
+}
+
+.detail-img-container{
+    width: 100%;
+    height: 40vh;
+}
+
+.detail-img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 16px 16px 0 0;
+}
+
+.detail-text-container{
+    padding: 4em 2em ;
+}
+
+.detail-card h2{
+    text-align: center;
+}
+
+.beer-details{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.beer-details .price{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.beer-details .rating{
+    font-size: 1.5rem;
+}
