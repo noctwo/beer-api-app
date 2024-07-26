@@ -1,30 +1,33 @@
-# React + TypeScript + Vite
+# Beer API - React Multi Page Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This React app fetches data from a Beer API and displays it in a shop-like fashion. On the front page, you can choose to get the full list of all available beers or a random beer.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Demo
 
-## Expanding the ESLint configuration
+You can view a live demo of the application [here](https://react-beer-api-app.netlify.app/).
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Features
 
-- Configure the top-level `parserOptions` property like this:
+- Full page with sections: Header, List, Card, and Footer built as separate React components.
+- Data fetched only once with `useContext`.
+- Fully responsive.
+- Fallback images.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Technologies Used
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- TypeScript
+- React
+- HTML
+- CSS
+
+## Screenshots
+
+![Example screenshot](/public/img/beer-api-screenshot.png)
+
+[Project Link](https://github.com/noctwo/beer-api-app.git)
+
+## Contact
+
+Created by Pius ([GitHub Profile](https://github.com/noctwo))
